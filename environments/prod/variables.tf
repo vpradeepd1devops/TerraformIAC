@@ -9,4 +9,7 @@ variable "sql_sku_name" {}
 variable "sql_azuread_admin_login" {}
 variable "sql_azuread_admin_object_id" {}
 variable "tenant_id" {}
-variable "tags" { type = map(string) default = {} }
+variable "tags" { 
+    type = map(string)
+    default = {} 
+}
